@@ -12,6 +12,8 @@ Feel free to use and adapt it for your own purposes.
 
 ## Usage
 
+0. Create a fork of this repository for your project!
+
 1. include `d3.js` and `radar.js`:
 
 ```html
