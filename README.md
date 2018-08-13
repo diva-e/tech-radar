@@ -1,8 +1,9 @@
 # Motivation
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
-align on technology choices. Is is based on the [pioneering work
+This is a template project to create Tech Radars for diva-e projects.
+Taken from [Zalando](http://zalando.de), the idea ist to maintain a Tech
+Radar for projects to help our teams to get an overview of technology used and decisions made by projects at diva-e. 
+Is is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
 
 This repository contains the code to generate the visualization:
@@ -15,7 +16,7 @@ Feel free to use and adapt it for your own purposes.
 
 ```html
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="http://zalando.github.io/tech-radar/release/radar-0.5.js"></script>
+<script src="https://github.com/diva-e/tech-radar/raw/v1.0/docs/radar.js"></script>
 ```
 
 2. insert an empty `svg` tag:
@@ -66,8 +67,7 @@ radar_visualization({
 
 Entries are positioned automatically so that they don't overlap.
 
-As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](http://zalando.github.io/tech-radar/).
+As a working example, you can check out `docs/index.html`
 
 ## License
 
